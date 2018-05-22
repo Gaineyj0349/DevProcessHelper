@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SPAWNER</string>
+    <string name="description">When your android device needs memory, it will kill off background processes to meet this requirement.
+        This app helps simulate that process.\n\nUnfortunately there are no life cycle callbacks that trigger to determine when your device\'s background app\'s processes have been killed off.\nSO, How does this app achieve this, especially with no permissions? Easy, it just repeatedly starts new activities, to the point that android needs to reclaim memory from background apps.\n
+    \n\nStep 1: Press one of the "SPAWN #" buttons to start that many new activities.
+    \n\nStep 2: When you feel that it has killed off the targeted background process (some devices it only takes 20 activities spawned, and some devices can take up to 140+), you can tap the "CLEAR ALL" button and it will clear ALL processes this app spawned and close the app. </string>
+</resources>
